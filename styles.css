@@ -1,0 +1,32 @@
+
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    color: #F9FAF8;
+    gap: 16px;
+}
+
+
+.first {
+    background-color: #1F2937;
+}
