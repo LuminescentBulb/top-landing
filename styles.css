@@ -9,8 +9,11 @@ body {
 header {
     display: flex;
     background-color: #1F2937;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding-top:0;
+    padding: 8px 200px;
 }
 
 .logo {
@@ -22,11 +25,57 @@ header {
 ul {
     list-style-type: none;
     display: flex;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
     gap: 16px;
 }
 
 
 .first {
     background-color: #1F2937;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 200px;
 }
+
+.fleft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 8px;
+}
+
+img {
+    width: 100%;
+}
+
+.fright {
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.heromain {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.herosub {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#buttontop {
+    background-color: #3882F6;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+    width: 150px;
+}
+
